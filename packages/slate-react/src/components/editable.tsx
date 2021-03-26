@@ -625,10 +625,24 @@ export const Editable = (props: EditableProps) => {
               hasEditableTarget(editor, event.target) &&
               !isEventHandled(event, attributes.onCompositionStart)
             ) {
-              state.isComposing = true
+              const { selection } = editor
+              if (selection && Range.isExpanded(selection)) {
+                Editor.deleteFragment(editor)
+              }
             }
           },
           [attributes.onCompositionStart]
+        )}
+        onCompositionUpdate={useCallback(
+          (event: React.CompositionEvent<HTMLDivElement>) => {
+            if (
+              hasEditableTarget(editor, event.target) &&
+              !isEventHandled(event, attributes.onCompositionUpdate)
+            ) {
+              state.isComposing = true
+            }
+          },
+          [attributes.onCompositionUpdate]
         )}
         onCopy={useCallback(
           (event: React.ClipboardEvent<HTMLDivElement>) => {
