@@ -1,7 +1,7 @@
 {
   "name": "meow-slate-history",
   "description": "An operation-based history implementation for Slate editors.",
-  "version": "0.59.0",
+  "version": "0.59.1",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "dist/index.js",
@@ -18,8 +18,8 @@
     "is-plain-object": "^3.0.0"
   },
   "devDependencies": {
-    "meow-slate": "^0.59.0",
-    "meow-slate-hyperscript": "^0.59.0"
+    "meow-slate": "^0.59.1",
+    "meow-slate-hyperscript": "^0.59.1"
   },
   "peerDependencies": {
     "meow-slate": ">=0.55.0"
