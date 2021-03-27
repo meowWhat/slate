@@ -1,4 +1,4 @@
-import { Path } from 'slate'
+import { Path } from 'meow-slate'
 
 export const input = {
   path: [],

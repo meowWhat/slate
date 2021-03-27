@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { Transforms } from 'slate'
+import { Transforms } from 'meow-slate'
 import { jsx } from '../..'
 
 export const run = editor => {

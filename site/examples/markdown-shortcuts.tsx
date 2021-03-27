@@ -1,6 +1,13 @@
 import React, { useState, useCallback, useMemo } from 'react'
 import { Slate, Editable, withReact } from 'slate-react'
-import { Node, Editor, Transforms, Range, Point, createEditor } from 'slate'
+import {
+  Node,
+  Editor,
+  Transforms,
+  Range,
+  Point,
+  createEditor,
+} from 'meow-slate'
 import { withHistory } from 'slate-history'
 
 const SHORTCUTS = {

@@ -1,5 +1,5 @@
 {
-  "name": "slate-react",
+  "name": "meow-slate-react",
   "description": "Tools for building completely customizable richtext editors with React.",
   "version": "0.59.0",
   "license": "MIT",
@@ -23,17 +23,17 @@
     "scroll-into-view-if-needed": "^2.2.20"
   },
   "devDependencies": {
-    "slate": "^0.59.0",
-    "slate-hyperscript": "^0.59.0"
+    "meow-slate": "^0.59.0",
+    "meow-slate-hyperscript": "^0.59.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
-    "slate": ">=0.55.0"
+    "meow-slate": ">=0.55.0"
   },
   "umdGlobals": {
     "react": "React",
-    "slate": "Slate"
+    "meow-slate": "Slate"
   },
   "keywords": [
     "canvas",

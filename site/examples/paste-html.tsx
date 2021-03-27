@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useMemo } from 'react'
 import { jsx } from 'slate-hyperscript'
-import { Node, Transforms, createEditor } from 'slate'
+import { Node, Transforms, createEditor } from 'meow-slate'
 import { withHistory } from 'slate-history'
 import { css } from 'emotion'
 import {

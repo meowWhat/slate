@@ -1,5 +1,5 @@
 import React, { useMemo, useCallback, useRef, useEffect, useState } from 'react'
-import { Node, Editor, Transforms, Range, createEditor } from 'slate'
+import { Node, Editor, Transforms, Range, createEditor } from 'meow-slate'
 import { withHistory } from 'slate-history'
 import {
   Slate,

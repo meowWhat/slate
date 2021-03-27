@@ -1,4 +1,4 @@
-import { Range } from 'slate'
+import { Range } from 'meow-slate'
 
 export const input = {
   focus: {

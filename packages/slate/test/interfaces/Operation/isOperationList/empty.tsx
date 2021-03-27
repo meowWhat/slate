@@ -1,4 +1,4 @@
-import { Operation } from 'slate'
+import { Operation } from 'meow-slate'
 
 export const input = []
 export const test = value => {

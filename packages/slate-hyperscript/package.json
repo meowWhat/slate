@@ -1,5 +1,5 @@
 {
-  "name": "slate-hyperscript",
+  "name": "meow-slate-hyperscript",
   "description": "A hyperscript helper for creating Slate documents.",
   "version": "0.59.0",
   "license": "MIT",
@@ -17,13 +17,13 @@
     "is-plain-object": "^3.0.0"
   },
   "devDependencies": {
-    "slate": "^0.59.0"
+    "meow-slate": "^0.59.0"
   },
   "peerDependencies": {
-    "slate": ">=0.55.0"
+    "meow-slate": ">=0.55.0"
   },
   "umdGlobals": {
-    "slate": "Slate"
+    "meow-slate": "Slate"
   },
   "keywords": [
     "deserialize",

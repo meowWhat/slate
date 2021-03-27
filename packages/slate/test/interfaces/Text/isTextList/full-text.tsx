@@ -1,4 +1,4 @@
-import { Text } from 'slate'
+import { Text } from 'meow-slate'
 
 export const input = [
   {

@@ -1,5 +1,5 @@
 import isPlainObject from 'is-plain-object'
-import { Element } from 'slate'
+import { Element } from 'meow-slate'
 import {
   createAnchor,
   createCursor,

@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useMemo } from 'react'
 import { Slate, Editable, withReact } from 'slate-react'
-import { Editor, Range, Point, Node, createEditor } from 'slate'
+import { Editor, Range, Point, Node, createEditor } from 'meow-slate'
 import { withHistory } from 'slate-history'
 
 const TablesExample = () => {

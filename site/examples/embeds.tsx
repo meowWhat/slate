@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import { Transforms, createEditor, Node } from 'slate'
+import { Transforms, createEditor, Node } from 'meow-slate'
 import {
   Slate,
   Editable,

@@ -1,4 +1,4 @@
-import { Element } from 'slate'
+import { Element } from 'meow-slate'
 
 export const input = {
   element: { children: [], type: 'bold' },

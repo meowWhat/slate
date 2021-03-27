@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { Editor, Text } from 'slate'
+import { Editor, Text } from 'meow-slate'
 import { jsx } from '../../..'
 
 export const input = (

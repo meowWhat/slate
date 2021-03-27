@@ -1,4 +1,4 @@
-import { Node, Path, Text } from 'slate'
+import { Node, Path, Text } from 'meow-slate'
 
 /**
  * A weak map to hold anchor tokens.
@@ -16,7 +16,7 @@ const FOCUS: WeakMap<Node, [number, FocusToken]> = new WeakMap()
  * All tokens inherit from a single constructor for `instanceof` checking.
  */
 
-export class Token {}
+export class Token { }
 
 /**
  * Anchor tokens represent the selection's anchor point.
