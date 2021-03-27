@@ -2,7 +2,7 @@
 
 - Fork by slate 0.59.0
 
-- Change all package names to 'mew-xxx'
+- Change all package names to 'meow-xxx'
 
 # Developer Guide
 
@@ -12,6 +12,8 @@
 yarn build
 
 # publish
-
 yarn release
+
+# commit
+yarn versionup
 ```
